@@ -19,7 +19,7 @@
 @import url(./blocks/description/__digits/description__digits.css);
 @import url(./blocks/description/__list/description__list.css);
 @import url(./blocks/cards/cards.css);
-@import url(./blocks/cards/__image/card__image.css);
+@import url(./blocks/cards/__image/cards__image.css);
 @import url(./blocks/cards/_list/cards_list.css);
 @import url(./blocks/places/places.css);
 @import url(./blocks/places/__title/places__title.css);
