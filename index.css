@@ -230,8 +230,8 @@
      border: 1px solid rgb(248, 11, 11);
      position: relative;
      display: flex;
-     max-width: calc(100% - 96px);
-     height: 740px;
+     width: calc(100vw - 96px);
+     height: calc((100vw - 96px) * 0.625);
      margin: 92px auto 0 auto;
      align-items: center;
      justify-content: space-around;
@@ -339,8 +339,8 @@
          width: 440px;
      }
      .final {
-         max-width: 100%;
-         height: 640px;
+         width: 100%;
+         height: calc(100vw * 0.625);
      }
      .footer {
          max-width: 100%;
@@ -396,8 +396,8 @@
          text-align: left;
      }
      .final {
-         max-width: 100%;
-         height: 480px;
+         width: 100%;
+         height: calc(100vw * 0.625);
      }
      .footer {
          max-width: 100%;
@@ -499,9 +499,9 @@
          margin: 32px 0 0 16px;
      }
      .final {
-         max-width: 100%;
          margin-top: 66px;
-         height: 200px;
+         width: 100%;
+         height: calc(100vw * 0.625);
      }
      .final__text_title {
          font-size: 32px;
