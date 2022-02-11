@@ -1,0 +1,10 @@
+.image-section__image {
+    max-width: inherit;
+    margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .image-section__image {
+        max-width: 100%;
+    }
+}

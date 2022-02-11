@@ -1,0 +1,24 @@
+.image-section {
+    max-width: 984px;
+    margin: 56px auto 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .image-section {
+        width: 100%;
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .image-section {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .image-section {
+        max-width: 100%;
+        margin: 40px auto 0 auto;
+    }
+}

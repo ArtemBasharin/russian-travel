@@ -1,0 +1,14 @@
+.description__question {
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .description__question {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

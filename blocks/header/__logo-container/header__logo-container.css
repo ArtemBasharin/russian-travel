@@ -1,0 +1,3 @@
+.header__logo-container {
+    width: calc(100% - 96px);
+}
