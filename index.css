@@ -17,8 +17,10 @@
 @import url(./blocks/description/__question/description__question.css);
 @import url(./blocks/description/__article/description__article.css);
 @import url(./blocks/description/__digits/description__digits.css);
+@import url(./blocks/description/__digits/_list/description__digits_list.css);
 @import url(./blocks/cards/cards.css);
 @import url(./blocks/cards/__image/card__image.css);
+@import url(./blocks/cards/__list/cards__list.css);
 @import url(./blocks/places/places.css);
 @import url(./blocks/places/__title/places__title.css);
 @import url(./blocks/places/__source-links/places__source-links.css);
