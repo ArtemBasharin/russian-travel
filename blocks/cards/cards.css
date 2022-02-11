@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .cards {
         grid-template-columns: repeat(auto-fill, 100%);
         gap: 16px 16px;
