@@ -1,4 +1,4 @@
-.final__text_title {
+.final__title {
     width: 560px;
     font-size: 72px;
     font-style: normal;
@@ -6,10 +6,12 @@
     line-height: 76px;
     letter-spacing: 0em;
     text-align: center;
+    margin: 0 auto 0 auto;
+    z-index: 5;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    .final__text_title {
+    .final__title {
         width: 288px;
         font-size: 32px;
         line-height: 35px;

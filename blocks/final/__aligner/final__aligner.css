@@ -1,0 +1,26 @@
+.final__aligner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-image: url('../../../images/cover-trains.jpg');
+    background-size: cover;
+    z-index: 1;
+    margin: 0 auto 0 auto;
+}
+
+.final__aligner::before {
+    content: "";
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.final__aligner:hover::before {
+    opacity: 0.8;
+}
