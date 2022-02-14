@@ -10,7 +10,7 @@
     z-index: 5;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .final__subtitle {
         width: 288px;
         font-size: 14px;

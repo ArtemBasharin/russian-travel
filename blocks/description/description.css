@@ -7,11 +7,17 @@
     .description {
         max-width: 100%;
         margin: 88px auto 0 auto;
+        padding: 0;
+    }
+}
+
+@media screen and (width: 768px) {
+    .description {
         padding: 0 24px 0 24px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .description {
         max-width: 100%;
         margin-top: 64px;

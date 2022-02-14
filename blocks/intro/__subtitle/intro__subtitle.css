@@ -8,7 +8,7 @@
     margin: 32px auto 0 auto;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .intro__subtitle {
         width: 288px;
         margin-top: 16px;

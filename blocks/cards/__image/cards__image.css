@@ -2,3 +2,15 @@
     object-fit: cover;
     width: 100%;
 }
+
+@media screen and (width: 768px) {
+    .cards__image {
+        height: 260px;
+    }
+}
+
+@media screen and (width: 320px) {
+    .cards__image {
+        height: 214px;
+    }
+}

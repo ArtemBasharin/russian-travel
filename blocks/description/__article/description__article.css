@@ -6,3 +6,9 @@
     letter-spacing: 0em;
     text-align: left;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .description__article {
+        width: 690px;
+    }
+}
